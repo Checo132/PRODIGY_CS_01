@@ -21,14 +21,21 @@ This project is the implementation of a simple caesar cipher tool with python fo
 
 ##### 1. Create a Project Folder and enter into the folder
 
+```bash
 mkdir caesar
 cd caesar
+```
 ---
 
 ##### 2. Create the Python File, save and exit.
 
+```bash
 vim caesar.py
+```
+
 Paste the following code (It shifts each letter in a message forward or backward in the alphabet by a number you choose, so the text becomes hidden (encrypted) or made readable again (decrypted)) within the file after triggering "insert" you could use nano for this also, I just prefer using vim;
+
+```python
 
 def encrypt(text, shift):
     result = ""
@@ -62,17 +69,22 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 ---
 
 ##### 3. Run the python command to run the code within the caesar.py file
 
-python3 caesar.py 
+```bash
+python3 caesar.py
+```
+ 
 You get to see the option of encrypting snd decrypting, you insert your text, choose a number and it encrypts, run the command again, choose the number to decrypt;
 
+```bash
 === Caesar Cipher Tool ===
 Type 'encrypt' or 'decrypt': encrypt
 Enter your message: Send me money
 Enter the shift value (0-25): 20
 🔐 Encrypted message: Myhx gy gihys
-
+```
 ---
